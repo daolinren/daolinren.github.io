@@ -19,6 +19,21 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.18.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
+<div id="tp-weather-widget"></div>
+  <script>
+    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    window.SeniverseWeatherWidget('show', {
+      flavor: "slim",
+      location: "WT009NU2JJDW",
+      geolocation: false,
+      language: "zh-Hans",
+      unit: "c",
+      theme: "auto",
+      token: "da718010-202a-4e57-ae0d-b811c5254d30",
+      hover: "enabled",
+      container: "tp-weather-widget"
+    })
+  </script>
     <meta name="description" content="作者：刘伟&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;叔祖父刘俊安，宁乡荷塘刘氏二十三派，谱名澄江，字茂棋，号俊安，光绪三十三年（1907）三月二十七日生。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的叔祖父刘俊安">
@@ -98,6 +113,8 @@
       </li>
   </ul>
 </nav>
+
+
 
 
   <div class="search-pop-overlay">
@@ -203,6 +220,8 @@ WIDGET = {
     </div>
 
     <div class="main-inner post posts-expand">
+
+
 
 
   
