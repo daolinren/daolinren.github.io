@@ -2749,19 +2749,6 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-.post-block {
-  opacity: 0.9;
-}
-.sidebar {
-  background-color: transparent;
-  opacity: 0.9;
-}
-.header-inner {
-  background: rgba(255,255,255,0.9);
-}
-.popup {
-  opacity: 0.9;
-}
 .fa {
   font-size: 14px;
 }
